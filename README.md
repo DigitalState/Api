@@ -24,4 +24,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 Original work has been developed by [Jason Wilder](https://github.com/jwilder/nginx-proxy).
 
-This work has been developed by DigitalState.io
+This work has been developed by [DigitalState.io](http://digitalstate.io)

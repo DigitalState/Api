@@ -3,6 +3,8 @@ version: '2'
 services:
   nginx:
     image: jwilder/nginx-proxy:alpine
+    environment:
+      SERVICE_IGNORE: 'true'
     ports:
       - '${PORT}:80'
     volumes:

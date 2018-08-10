@@ -1,1 +1,6 @@
-version: '2'
+version: '3'
+
+services:
+  proxy:
+    volumes:
+      - '${DIRECTORY}/proxy/stag/config.toml:/etc/traefik/traefik.toml'

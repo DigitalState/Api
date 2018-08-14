@@ -1,6 +1,6 @@
 # Proxy
 
-The DigitalState Proxy microservice provides a reverse-proxy and load-balancer solution for the DigitalState microsrvices architecture.
+The DigitalState Proxy microservice provides a reverse-proxy and load-balancer solution for the DigitalState microservices architecture.
 
 It uses [Traefik](https://docs.traefik.io/) by Containous SAS.
 

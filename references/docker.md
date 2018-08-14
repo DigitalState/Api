@@ -1,6 +1,6 @@
 # Docker
 
-The DigitalState Identities microservice docker information.
+The DigitalState Proxy microservice docker information.
 
 ## Table of Contents
 

@@ -45,7 +45,7 @@ logLevel = "DEBUG"
 #
 # Optional
 #
-# [traefikLog]
+[traefikLog]
 
 # Sets the filepath for the traefik log. If not specified, stdout will be used.
 # Intermediate directories are created if necessary.
@@ -72,7 +72,7 @@ format = "json"
 #
 # Optional
 #
-# [accessLog]
+[accessLog]
 
 # Sets the file path for the access log. If not specified, stdout will be used.
 # Intermediate directories are created if necessary.
@@ -87,7 +87,7 @@ format = "json"
 # Optional
 # Default: "common"
 #
-# format = "common"
+format = "json"
 
 ################################################################
 # API and dashboard configuration
@@ -96,19 +96,19 @@ format = "json"
 # Enable API and dashboard
 [api]
 
-  # Name of the related entry point
-  #
-  # Optional
-  # Default: "traefik"
-  #
-  # entryPoint = "traefik"
+# Name of the related entry point
+#
+# Optional
+# Default: "traefik"
+#
+# entryPoint = "traefik"
 
-  # Enabled Dashboard
-  #
-  # Optional
-  # Default: true
-  #
-  # dashboard = false
+# Enabled Dashboard
+#
+# Optional
+# Default: true
+#
+# dashboard = false
 
 ################################################################
 # Ping configuration
@@ -117,12 +117,12 @@ format = "json"
 # Enable ping
 [ping]
 
-  # Name of the related entry point
-  #
-  # Optional
-  # Default: "traefik"
-  #
-  # entryPoint = "traefik"
+# Name of the related entry point
+#
+# Optional
+# Default: "traefik"
+#
+# entryPoint = "traefik"
 
 ################################################################
 # Consul Catalog Provider

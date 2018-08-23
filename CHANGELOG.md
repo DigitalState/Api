@@ -1,3 +1,5 @@
 # Changelog
 
-## 0.7.0
+## 0.9.0
+
+- Feature [General] Restructure proxy to use Traefik

@@ -1,11 +1,9 @@
-os:
-  - linux
-  - osx
-
-sudo: required
-
-services:
-  - docker
+matrix:
+  include:
+    - os: linux
+      sudo: required
+      services:
+        - docker
 
 script:
   - docker-compose -f docker-compose.yml -f docker-compose.test.yml build

@@ -2,15 +2,15 @@ version: '3.4'
 
 services:
   proxy:
-    image: traefik:1.7-alpine
+    image: digitalstate/proxy
+    build:
+      context: ./proxy
     environment:
       CONSUL_HTTP_TOKEN: ${DISCOVERY_TOKEN}
-    command: ''
     ports:
       - ${PORT}:80
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ${DIRECTORY}/proxy/config.toml:/etc/traefik/traefik.toml
 
 networks:
   default: ~

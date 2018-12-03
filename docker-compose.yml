@@ -11,6 +11,10 @@ services:
       - ${PORT}:80
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      default:
+        aliases:
+          - proxy_proxy
 
 networks:
   default: ~
